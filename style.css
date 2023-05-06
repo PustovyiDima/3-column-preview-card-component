@@ -46,6 +46,7 @@ main {
 }
 
 .car_type h1 {
+    font-size: 40px;
     color: var(--light-grey);
     text-transform: uppercase;
     font-family: 'Big Shoulders Display', cursive;
@@ -58,12 +59,17 @@ main {
 
 .btn button {
     background-color: var(--white);
-    border: 2px solid var(--white);
-    width: 200px;
+    border: none;
+    width: 150px;
     height: 45px;
     border-radius: 50px;
     font-size: 14px;
     cursor: pointer;
+    font-weight: 700;
+}
+
+.btn button:hover {
+    border: 3px solid var(--white);
 }
 
 .sedans {
