@@ -1,0 +1,40 @@
+@media (500px <=width <=950px) {
+    body {
+        align-items: start;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .car_type {
+        width: 500px;
+        padding: 0 137px;
+    }
+
+    .sedans {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 15px 15px;
+    }
+}
+
+@media (width <=499px) {
+    body {
+        align-items: start;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .sedans {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 15px 15px;
+    }
+}
