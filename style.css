@@ -58,7 +58,7 @@ main {
 }
 
 .btn button {
-    background-color: var(--white);
+    background-color: var(--light-grey);
     border: none;
     width: 150px;
     height: 45px;
